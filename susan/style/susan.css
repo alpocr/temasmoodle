@@ -6,7 +6,118 @@
         Purpose of the stylesheet follows.
 */
 
-root { 
-    display: block;
+a {
+    text-decoration: none;
 }
-
+ 
+.addcoursebutton .singlebutton {
+    text-align: center;
+}
+ 
+h1.headermain {
+    color: #fff;
+    
+}
+ 
+h2.main {
+    border-bottom: 3px solid #013D6A;
+    color: #013D6A;
+    text-align: center;
+}
+ 
+h2.headingblock {
+    font-size: 18pt;
+    margin-top: 0;
+    background-color: #013D6A;
+    color: #FFF;
+    text-align: center;
+}
+ 
+#page-header {
+    background-color: #013D6A;
+}
+ 
+#page-header .headermenu {
+    color: #FFF;
+}
+ 
+#page-header .headermenu a {
+    color: #FDFF2A;
+}
+ 
+.navbar {
+    padding-left: 1em;
+}
+ 
+.breadcrumb li {
+    color: #FFF;
+}
+ 
+.breadcrumb li a {
+    color: #FFF;
+}
+ 
+.block {
+    background-color: #013D6A;
+}
+ 
+.block .header .title {
+    color: #FFF;
+}
+ 
+.block .header .title .block_action input {
+    background-color: #FFF;
+}
+ 
+.block .content {
+    border: 1px solid #000;
+    padding: 5px;
+    background-color: #FFF;
+}
+ 
+.block .content .block_tree p {
+    font-size: 80%;
+}
+ 
+.block_settings_navigation_tree .content .footer {
+    text-align: center;
+}
+ 
+.block_settings_navigation_tree .content .footer .adminsearchform {
+    margin-left: 5%;
+    width: 90%;
+    font-size: 9pt;
+}
+ 
+.block_settings_navigation_tree .content .footer .adminsearchform #adminsearchquery {
+    width: 95%;
+}
+ 
+.block_calendar_month .content .calendar-controls a {
+    color: #013D6A;
+    font-weight: bold;
+}
+ 
+.block_calendar_month .content .minicalendar td {
+    border-color: #FFF;
+}
+ 
+.block_calendar_month .content .minicalendar .day {
+    color: #FFF;
+    background-color: #013D6A;
+}
+ 
+.block_calendar_month .content .minicalendar .day a {
+    color: #FFF000;
+}
+ 
+.block_calendar_month .content .minicalendar .weekdays th {
+    border-width: 0;
+    font-weight: bold;
+    color: #013D6A;
+}
+ 
+.block_calendar_month .content .minicalendar .weekdays abbr {
+    border-width: 0;
+    text-decoration: none;
+}
